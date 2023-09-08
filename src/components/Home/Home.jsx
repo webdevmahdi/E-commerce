@@ -2,11 +2,12 @@ import React from 'react';
 import useProducts from '../hooks/useProducts';
 import Cart from '../Cart/Cart';
 import Clothes from '../Clothes/Clothes';
+import './Home.css'
 
 const Home = () => {
     let [clothes] = useProducts();
   return (
-    <div>
+    <div className='home-container'>
         <div className="clothes-container">
             {
                 clothes.map(cloth => <Clothes 
