@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Clothes = (props) => {
-    let {name, picture, price} = props.clothes;
+    let {name, picture, price} = props.clothe;
   return (
     <div>
         <h1>Name: {name}</h1>
