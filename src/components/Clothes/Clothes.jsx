@@ -8,6 +8,7 @@ const Clothes = (props) => {
         <img src={picture}></img>
         <h3>Name: {name}</h3>
         <p>Price: ${price}</p>
+        <button>Add to Cart</button>
     </div>
   )
 }
