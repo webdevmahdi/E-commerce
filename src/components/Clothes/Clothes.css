@@ -1,6 +1,12 @@
 .clothes-container{
+    margin-top: 50px;
     height: 400px;
 }
 .clothes-container img{
     height: 350px;
+}
+.clothes-container button{
+    border: 1px solid rgb(26, 34, 139);
+    border-radius: 10px;
+    background-color: aquamarine;
 }
