@@ -3,8 +3,16 @@
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(175, 175, 175);
-    background-color: rgba(4, 3, 44, 0.801);
     cursor: pointer;
-    margin: 20px;
-    padding: 20px;
+    margin: 50px;
+    padding: 15px 20px 15px 20px;
+    transition: .5s;
+}
+.active{
+    border-radius: 30px;
+    background-color: rgba(4, 3, 44, 0.801);
+}
+.menu a:hover{
+    background-color: rgba(4, 3, 44, 0.801);
+    border-radius: 10px;
 }
