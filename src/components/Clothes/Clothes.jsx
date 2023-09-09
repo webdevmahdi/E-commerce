@@ -1,14 +1,14 @@
 import React from 'react';
 import './Clothes.css'
 
-const Clothes = (props) => {
-    let {name, picture, price} = props.clothe;
+const Clothes = ({clothe, handleCartItem}) => {
+    let {name, picture, price} = clothe;
   return (
     <div className='clothe-container'>
         <img src={picture}></img>
         <p>Price: ${price}</p>
         <h3>Name: {name}</h3>
-        <button>Add to Cart</button>
+        <button onClick={()=> handleCartItem(clothe)}>Add to Cart</button>
     </div>
   )
 }
