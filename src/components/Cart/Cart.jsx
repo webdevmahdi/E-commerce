@@ -4,7 +4,7 @@ const Cart = ({cart, removeCartItem}) => {
   let comand;
   if(cart.length > 3){
     comand = <div>
-      <h1>hello uncle</h1>
+      <h1>WOW!!</h1>
     </div>
   }
   return (
@@ -23,7 +23,7 @@ const Cart = ({cart, removeCartItem}) => {
         cart.length < 3 ? <p>You can add more</p> : <p>Oh! Greate</p>
       }
       {
-        cart.length > 2 && <p>Oh! You are doing good</p>
+        cart.length > 2 && <p>You are doing good</p>
       }
       {
         cart.length === 3 || <h1>Hellllo!</h1>
