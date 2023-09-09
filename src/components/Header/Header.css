@@ -2,17 +2,19 @@
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(175, 175, 175);
+    color: black;
     cursor: pointer;
     margin: 50px;
     padding: 15px 20px 15px 20px;
     transition: .5s;
 }
-.active{
+.menu .active{
     border-radius: 30px;
+    color: rgb(185, 185, 185);
     background-color: rgba(4, 3, 44, 0.801);
 }
 .menu a:hover{
+    color: rgb(175, 175, 175);
     background-color: rgba(4, 3, 44, 0.801);
     border-radius: 10px;
 }
