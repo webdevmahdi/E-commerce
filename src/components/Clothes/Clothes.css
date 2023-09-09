@@ -1,13 +1,36 @@
-.clothes-container{
-    display: block; 
+.clothe-container{
+    position: relative;
     margin-top: 50px;
-    height: 400px;
-}
-.clothes-container img{
-    height: 350px;
-}
-.clothes-container button{
-    border: 1px solid rgb(26, 34, 139);
+    width: 300px;
+    height: 500px;
+    border: 1px solid navy;
     border-radius: 10px;
+    padding-top: 10px;
+}
+.clothe-container img{
+    width: 280px;
+    height: 370px;
+    border-radius: 8px;
+}
+.clothe-container p, h3{
+    margin: 0px;
+}
+
+.clothe-container button{
+    display: block;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgb(26, 34, 139);
+    border-radius: 0 0 10px 10px;
     background-color: aquamarine;
+    bottom: 0px;
+    transition: 0.5s;
+}
+.clothe-container button:hover{
+    background-color: aqua;
 }
