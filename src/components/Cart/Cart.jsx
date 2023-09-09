@@ -22,6 +22,12 @@ const Cart = ({cart, removeCartItem}) => {
       {
         cart.length < 3 ? <p>You can add more</p> : <p>Oh! Greate</p>
       }
+      {
+        cart.length > 2 && <p>Oh! You are doing good</p>
+      }
+      {
+        cart.length === 3 || <h1>Hellllo!</h1>
+      }
     </div>
   )
 }
